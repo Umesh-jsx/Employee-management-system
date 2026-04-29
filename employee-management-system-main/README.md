@@ -81,7 +81,7 @@ spring.datasource.url=jdbc:mysql://localhost:3306/emsdb?createDatabaseIfNotExist
 spring.datasource.username=root
 spring.datasource.password=${DB_PASSWORD}
 spring.jpa.hibernate.ddl-auto=update
-jwt.secret=mysecrectkeyemployeemanagementssecretkey123
+jwt.secret=${mysecrectkeyemployeemanagement}
 ```
 
 Set environment variable before running:
